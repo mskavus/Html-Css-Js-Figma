@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Out</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<div class="sepetbos">
+    <span>Sepet Boş</span>
+</div>
+<div class="container">
+    <div class="header">
+        <div class="tab">
+            <h2>Checkout</h2>
+            <span>Shipping > Payment Method > Confirmation</span>
+            <button><img src="img/Close%20Window%20icon%202@0,5x.png" alt=""></button>
+        </div>
+    </div>
+    <div class="content">
+        <div class="baggage">
+            <div class="order" id="order1">
+                <img src="img/akabi.png" alt="">
+                <div class="info">
+                    <p>The Chelsea Boot</p>
+                    <p>Black</p>
+                    <p>Quantity: <span>1</span></p>
+                </div>
+                <span class="price"><span class="_price">43</span><button onclick="deleteord()"><img src="img/cancorder.png" style="width: 16px; height: 16px" alt=""></button></span>
+            </div>
+            <div class="order" id="order2">
+                <img src="img/kcantapng.png" alt="">
+                <div class="info">
+                    <p>The Twill Snap Backpack</p>
+                    <p>Reverse Denim + Brown leather</p>
+                    <p>Quantity: <span>1</span></p>
+                </div>
+                <span class="price"><span class="_price">55</span><button onclick="deleteord2()"><img src="img/cancorder.png" style="width: 16px; height: 16px" alt=""></button></span>
+            </div>
+            <div class="order" id="order3">
+                <img src="img/sal.png" alt="">
+                <div class="info">
+                    <p>The Twill Zip Tote</p>
+                    <p>Reverse Denim + Black leather</p>
+                    <p>Quantity: <span>1</span></p>
+                </div>
+                <span class="price"><span class="_price">79</span><button onclick="deleteord3()"><img src="img/cancorder.png" style="width: 16px; height: 16px" alt=""></button></span>
+            </div>
+            <div class="order" id="order4">
+                <img src="img/Bitmap.png" alt="">
+                <div class="info">
+                    <p>The Chunky Wool Scarf</p>
+                    <p>Black</p>
+                    <p>Quantity: <span>1</span></p>
+                </div>
+                <span class="price"><span class="_price">73</span><button onclick="deleteord4()"><img src="img/cancorder.png" style="width: 16px; height: 16px" alt=""></button></span>
+            </div>
+
+            <div class="calc">
+                <p>Subtotal<span>15</span></p>
+                <p>Shipping<span>Free</span></p>
+                <p>Taxes<span>12.12</span></p>
+                <p>Total<span id="total">410.12</span></p>
+            </div>
+        </div>
+        <div class="menu">
+            <h2 class="tap-head">Wallet</h2>
+            <div class="cardstyle">
+                <button><img src="img/visa%20card.png" alt=""></button>
+                <p>Ending in 1234</p>
+            </div>
+            <div class="cardstyle">
+                <button><img src="img/Mastercard%20card.png" alt=""></button>
+                <p>Ending in 1234</p>
+            </div>
+            <div class="cardstyle">
+                <button><img src="img/discover%20card.png" alt=""></button>
+                <p>Ending in 1234</p>
+            </div>
+            <h2 class="bottom-head">New Card</h2>
+            <form action="" method="post">
+                <label for="name"><input id="name" type="text" placeholder="Name On Card"></label>
+                <label for="numbers16"><input id="numbers16" type="number" placeholder="1111-1111-1111-1112"></label>
+                <label for="ym"><input id="ym" type="number" placeholder="MM/YY"></label>
+                <label for="cvc"><input id="cvc" type="text" placeholder="CVC"></label>
+                <label id="forcheck" onclick="agree()" for="check"><input id="check" type="checkbox" placeholder="">Add to card vallet</label>
+                <label for="form-btn"><input type="submit" value="Continue" id="form-btn"></label>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

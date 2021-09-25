@@ -1,0 +1,285 @@
+@font-face {
+  src: url("fonts/Avenir Roman.otf");
+  font-family: Avenir-Roman;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: Avenir-Roman, sans-serif;
+}
+
+body {
+  width: 98%;
+  margin: auto;
+  position: relative;
+}
+body .sepetbos {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  background-color: #777879;
+  position: absolute;
+  z-index: 1;
+}
+body .sepetbos span {
+  font-size: 48px;
+  color: white;
+}
+body .container {
+  margin: auto;
+  background-color: white;
+  width: 75%;
+  height: auto;
+  padding: 0 20px;
+}
+body .container .header {
+  position: relative;
+  top: 30px;
+  height: 50px;
+  border-bottom: thin solid #979797;
+  line-height: 50px;
+}
+body .container .header .tab {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+body .container .header .tab h2 {
+  display: inline-block;
+  font-size: 18px;
+}
+body .container .header .tab span {
+  display: inline-block;
+  margin-left: 5%;
+  font-size: 12px;
+  color: #9C9C9C;
+}
+body .container .header .tab button {
+  border: none;
+  outline: none;
+  background: none;
+  right: 0;
+  position: absolute;
+  cursor: pointer;
+  transition: 300ms transform ease-in-out;
+}
+body .container .header .tab button:hover {
+  transform: scale(1.05);
+}
+body .container .content {
+  margin-top: 50px;
+}
+body .container .content .menu {
+  width: 58%;
+  height: auto;
+  position: relative;
+  text-align: center;
+}
+body .container .content .menu .tap-head {
+  font-size: 16px;
+  text-align: left;
+  margin-top: 5px;
+  padding-left: 2vw;
+  color: #777879;
+}
+body .container .content .menu .cardstyle {
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-flow: column;
+  flex-wrap: wrap;
+  left: 50%;
+  padding: 35px 2.4vw 0;
+}
+body .container .content .menu .cardstyle p {
+  font-size: 12px;
+}
+body .container .content .menu .cardstyle button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 300ms transform ease-in-out;
+}
+body .container .content .menu .cardstyle button:hover {
+  transform: scale(1.05);
+}
+body .container .content .menu .bottom-head {
+  font-size: 16px;
+  text-align: left;
+  margin-top: 30px;
+  padding-left: 2vw;
+  color: #777879;
+}
+body .container .content .menu form {
+  margin-top: 30px;
+  position: relative;
+  margin-left: 15%;
+}
+body .container .content .menu form input {
+  display: block;
+  margin-left: 4vw;
+  height: 40px;
+  margin-top: 0.5vw;
+  width: 50%;
+  padding: 0 1vw;
+  outline: none;
+}
+body .container .content .menu form #ym {
+  width: 20%;
+  float: left;
+}
+body .container .content .menu form #cvc {
+  width: 25%;
+  position: absolute;
+  left: 8.5vw;
+}
+body .container .content .menu form #forcheck {
+  display: flex;
+  margin-top: 65px;
+  align-items: flex-end;
+  color: #777879;
+  font-size: 14px;
+}
+body .container .content .menu form #forcheck #check {
+  width: 18px;
+  height: 18px;
+  display: block;
+  outline: none;
+}
+body .container .content .menu form #form-btn {
+  background-color: #8BD638;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+  transition: 500ms all ease-in-out;
+}
+body .container .content .menu form #form-btn:hover {
+  background-color: white;
+  transform: scale(1.01);
+  color: #8BD638;
+  border: 1px solid #8BD638;
+}
+body .container .content .baggage {
+  position: relative;
+  width: 40%;
+  height: auto;
+  float: right;
+}
+body .container .content .baggage .order {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 50px;
+}
+body .container .content .baggage .order img {
+  float: left;
+  position: absolute;
+  left: 0;
+}
+body .container .content .baggage .order .info {
+  position: relative;
+  float: left;
+  text-align: left;
+  margin-left: 20%;
+}
+body .container .content .baggage .order .info p:nth-child(1) {
+  font-size: 12px;
+  color: #777879;
+}
+body .container .content .baggage .order .info p:nth-child(2) {
+  font-size: 10px;
+  color: #777879;
+}
+body .container .content .baggage .order .info p:nth-child(3) {
+  font-size: 10px;
+  color: #777879;
+}
+body .container .content .baggage .order .price {
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+body .container .content .baggage .order .price button {
+  position: absolute;
+  right: 200%;
+  bottom: 20px;
+  cursor: pointer;
+  transition: 300ms all ease-in-out;
+}
+body .container .content .baggage .order .price button:hover {
+  transform: scale(1.05);
+}
+body .container .content .baggage .calc {
+  margin-top: 50px;
+}
+body .container .content .baggage .calc p {
+  margin: 20px 0;
+  font-size: 12px;
+  color: #9C9C9C;
+}
+body .container .content .baggage .calc p span {
+  position: absolute;
+  right: 0;
+}
+body .container .content .baggage .calc p:last-child {
+  border-top: thin solid #9C9C9C;
+  padding: 1vw 0;
+}
+@media screen and (max-width: 768px) {
+  body .container .header .tab span {
+    display: none;
+  }
+  body .container .content .menu {
+    position: absolute;
+    clear: right;
+    top: 650px;
+  }
+  body .container .content .menu .cardstyle {
+    display: block;
+  }
+  body .container .content .menu form label input {
+    width: 75%;
+    font-size: 12px;
+  }
+  body .container .content .menu form #ym {
+    width: 40%;
+    float: left;
+  }
+  body .container .content .menu form #cvc {
+    width: 25%;
+    position: absolute;
+    left: 23vw;
+  }
+  body .container .content .baggage {
+    position: absolute;
+  }
+  body .container .content .baggage .order {
+    padding: 40px 20px;
+    width: 200%;
+  }
+  body .container .content .baggage .order .price {
+    position: absolute;
+    right: 0;
+  }
+}
+@media (max-width: 1024px) and (min-width: 769px) {
+  body .container {
+    width: 100%;
+  }
+  body .container .content .menu .cardstyle {
+    padding: 35px 1.5vw 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

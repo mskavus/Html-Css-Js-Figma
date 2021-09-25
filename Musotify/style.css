@@ -1,0 +1,259 @@
+@font-face {
+  src: url("fonts");
+  font-family: Open-Sans, sans-serif;
+}
+* {
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: Open-Sans, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+body aside {
+  position: relative;
+}
+body aside .leftbar {
+  position: absolute;
+  background-color: #010B1E;
+  height: 730px;
+  left: 0;
+  top: 0;
+  width: 20%;
+}
+body aside .leftbar #ucnokta {
+  border: none;
+  background-color: #010B1E;
+  cursor: pointer;
+  margin: 25px 0 0 10%;
+  outline: none;
+}
+body aside .leftbar .brl {
+  margin-top: 40px;
+  margin-left: 12%;
+}
+body aside .leftbar .brl button {
+  background-color: #010B1E;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+body aside .leftbar .brl button:hover {
+  transform: scale(1.02);
+  opacity: 0.8;
+}
+body aside .leftbar #madefor {
+  height: 45px;
+  width: 75%;
+  margin-left: 10%;
+  margin-top: 20px;
+  font-weight: 700;
+  background-image: linear-gradient(to right, blue, green);
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  outline: none;
+  color: #212020;
+  font-size: 14px;
+}
+body aside .leftbar #madefor:hover {
+  background-image: linear-gradient(to right, green, blue);
+  transform: scale(1.01);
+  color: antiquewhite;
+}
+body aside .leftbar .yourlib {
+  width: 75%;
+  height: 145px;
+  margin-left: 12%;
+  margin-top: 30px;
+  position: relative;
+}
+body aside .leftbar .yourlib h3 {
+  font-size: 15px;
+  color: #3B4C64;
+  letter-spacing: 1.16px;
+}
+body aside .leftbar .yourlib a {
+  display: block;
+  color: #A9A9A9;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: 300ms opacity ease-in-out;
+}
+body aside .leftbar .yourlib a:hover {
+  opacity: 0.8;
+  transform: scale(1.01);
+}
+body aside .leftbar .yourlib button {
+  margin-left: 90%;
+  position: absolute;
+  top: 0;
+  border: none;
+  background-color: #010B1E;
+  cursor: pointer;
+  outline: none;
+}
+body aside .leftbar .playlist {
+  width: 75%;
+  margin-left: 12%;
+  position: relative;
+  height: 189px;
+}
+body aside .leftbar .playlist h3 {
+  font-size: 15px;
+  color: #3B4C64;
+  letter-spacing: 1.16px;
+}
+body aside .leftbar .playlist a {
+  display: block;
+  color: #A9A9A9;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: 300ms opacity ease-in-out;
+}
+body aside .leftbar .playlist a:hover {
+  opacity: 0.8;
+  transform: scale(1.01);
+}
+body aside .leftbar .playlist button {
+  margin-left: 90%;
+  position: absolute;
+  top: 0;
+  border: none;
+  background-color: #010B1E;
+  cursor: pointer;
+  outline: none;
+}
+body aside .leftbar .playlist-container {
+  margin-left: 15%;
+}
+body aside .leftbar .playlist-container label {
+  display: block;
+  position: relative;
+}
+body aside .leftbar .playlist-container label input {
+  width: 85%;
+  height: 45px;
+  border-radius: 20px;
+  padding-left: 20px;
+  border: thin solid dimgray;
+  background-color: #010B1E;
+  font-size: 14px;
+  color: white;
+  outline: none;
+}
+body aside .leftbar .playlist-container label button {
+  position: absolute;
+  border: none;
+  background-color: #010B1E;
+  top: 13px;
+  right: 17%;
+  cursor: pointer;
+  outline: none;
+}
+body aside .rightbar {
+  width: 20%;
+  background-color: #010B1E;
+  height: 730px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+body aside .rightbar .profilpiclay {
+  margin-top: 40px;
+  margin-left: 12%;
+}
+body aside .rightbar .profilpiclay img {
+  vertical-align: top;
+}
+body aside .rightbar .profilpiclay span {
+  font-size: 17px;
+  color: #AFAFAF;
+  display: inline-block;
+  margin-left: 3%;
+  margin-top: 10px;
+}
+body aside .rightbar .profilpiclay span:nth-child(3) {
+  color: #040404;
+  font-size: 14px;
+  width: 12%;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 100px;
+  background-color: #246B85;
+}
+body aside .rightbar .profilpiclay button {
+  border: none;
+  background-color: #010B1E;
+  outline: none;
+  cursor: pointer;
+}
+body aside .rightbar .friend-activity {
+  width: 80%;
+  float: left;
+  margin-left: 12%;
+  background-color: red;
+  height: 594px;
+}
+body aside .rightbar .friend-activity h2 {
+  margin-left: 0;
+  color: #3B4C64;
+  font-size: 14.4px;
+}
+body aside .rightbar .friend-activity .friends-menu {
+  height: 113px;
+}
+body aside .rightbar .friend-activity .friends-menu .menu1 {
+  width: 80%;
+  margin-top: 20px;
+}
+body aside .rightbar .friend-activity .friends-menu .menu1 h3 {
+  font-size: 13px;
+  color: white;
+}
+body aside .rightbar .friend-activity .friends-menu .menu1 h3 img {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+body aside .rightbar .friend-activity .friends-menu .menu1 h3 span {
+  float: right;
+  color: #3B4C64;
+  font-size: smaller;
+  margin-top: 6px;
+}
+body aside .rightbar .friend-activity .friends-menu .menu2 {
+  position: relative;
+  width: 80%;
+}
+body aside .rightbar .friend-activity .friends-menu .menu2 span {
+  position: absolute;
+  color: #C3C8D5;
+  display: inline-block;
+  left: 23%;
+}
+body aside .rightbar .friend-activity .friends-menu .menu2 span:nth-child(2) {
+  font-size: 13px;
+  top: 5px;
+}
+body aside .rightbar .friend-activity .friends-menu .menu2 span:nth-child(3) {
+  font-size: 10px;
+  top: 20px;
+}
+body aside .rightbar .friend-activity .friends-menu .menu2 button {
+  position: absolute;
+  right: 0;
+  border: none;
+  background-color: #010B1E;
+  top: 5px;
+  cursor: pointer;
+}
+body aside .rightbar .friend-activity .friends-menu .menu3 span {
+  display: inline-block;
+  width: 300px;
+}
+
+/*# sourceMappingURL=style.css.map */

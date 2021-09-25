@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2762e473-9bf5-4c38-98cf-71c1e0d9f81e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1m4rlnmPZnQYliuTr2QzJOrQ11N" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\University\Desktop\Html\JS\Checkout\img" />
+      <recent name="C:\Users\University\Desktop\Html\JS\Checkout\fonts" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index" type="JavascriptDebugType" uri="http://localhost:63342/Checkout/index.html?_ijt=top9f7lflmva77vhruok8gnui8" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2762e473-9bf5-4c38-98cf-71c1e0d9f81e" name="Default Changelist" comment="" />
+      <created>1608763857650</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608763857650</updated>
+      <workItem from="1608763858727" duration="11642000" />
+      <workItem from="1608819714361" duration="12035000" />
+      <workItem from="1608835561729" duration="16000" />
+      <workItem from="1608920543511" duration="1793000" />
+      <workItem from="1609203077081" duration="6000" />
+      <workItem from="1609246192672" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="91" y="13" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608763992570">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="91" y="13" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1608763992570" />
+    <state x="304" y="141" key="EditFileWatcherDialog" timestamp="1608764006262">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="304" y="141" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1608764006262" />
+    <state x="417" y="118" key="FileChooserDialogImpl" timestamp="1608835575014">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="417" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608835575014" />
+    <state width="1236" height="211" key="GridCell.Tab.0.bottom" timestamp="1608835528776">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1236" height="211" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608835528776" />
+    <state width="1236" height="211" key="GridCell.Tab.0.center" timestamp="1608835528775">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1236" height="211" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608835528775" />
+    <state width="1236" height="211" key="GridCell.Tab.0.left" timestamp="1608835528775">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1236" height="211" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608835528775" />
+    <state width="1236" height="211" key="GridCell.Tab.0.right" timestamp="1608835528776">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1236" height="211" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608835528776" />
+    <state width="1236" height="211" key="GridCell.Tab.1.bottom" timestamp="1608835528776">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1236" height="211" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608835528776" />
+    <state width="1236" height="211" key="GridCell.Tab.1.center" timestamp="1608835528776">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1236" height="211" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1608835528776" />
+    <state width="1236" height="211" key="GridCell.Tab.1.left" timestamp="1608835528776">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1236" height="211" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1608835528776" />
+    <state width="1236" height="211" key="GridCell.Tab.1.right" timestamp="1608835528776">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1236" height="211" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1608835528776" />
+    <state width="1236" height="211" key="GridCell.Tab.2.bottom" timestamp="1608835528776">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1236" height="211" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608835528776" />
+    <state width="1236" height="211" key="GridCell.Tab.2.center" timestamp="1608835528776">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1236" height="211" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1608835528776" />
+    <state width="1236" height="211" key="GridCell.Tab.2.left" timestamp="1608835528776">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1236" height="211" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1608835528776" />
+    <state width="1236" height="211" key="GridCell.Tab.2.right" timestamp="1608835528776">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1236" height="211" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1608835528776" />
+    <state x="138" y="8" key="SettingsEditor" timestamp="1608764007337">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="138" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608764007337" />
+  </component>
+</project>

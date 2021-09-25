@@ -1,0 +1,317 @@
+@font-face {
+  src: url("fonts/Mulish-VariableFont_wght.ttf");
+  font-family: Muulish, sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: Muulish, sans-serif;
+}
+
+body {
+  background-color: #F1E8E6;
+}
+body aside .info {
+  width: 467px;
+  height: 116px;
+  position: absolute;
+  border-radius: 15px;
+  top: 878px;
+  left: 202px;
+  background-color: #FFFFFF;
+  box-shadow: 0 16px 35px -30px #F55951;
+}
+body aside .info span {
+  position: relative;
+  width: 93px;
+  height: 36px;
+  top: 30px;
+  left: 0;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #111127;
+}
+body aside .info span img {
+  position: relative;
+  top: 10px;
+  margin-left: 40px;
+}
+body aside .recipes {
+  position: absolute;
+  top: 543px;
+  left: 1136px;
+  width: 420px;
+  height: 188px;
+  background-color: #F55951;
+  box-shadow: 0 16px 35px -30px #F55951;
+  border-radius: 25px;
+}
+body aside .recipes .searching {
+  position: absolute;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: #FFFFFF;
+  top: 40px;
+  left: 40px;
+}
+body aside .recipes input {
+  position: absolute;
+  width: 281px;
+  height: 60px;
+  top: 88px;
+  left: 40px;
+  padding-left: 59px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #111127;
+}
+body aside .recipes img {
+  position: absolute;
+  top: 101px;
+  left: 60px;
+}
+body aside .level {
+  position: absolute;
+  top: 823px;
+  left: 1136px;
+  width: 353px;
+  height: 163px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+}
+body aside .level h4 {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #111127;
+}
+body aside .level ul {
+  margin: 83px 40px 40px 30px;
+}
+body aside .level ul li {
+  margin-left: 10px;
+  float: left;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #111127;
+}
+body aside .level ul li button {
+  border: 1px solid #EDD2CB;
+  background-color: #FAF2F0;
+  border-radius: 21.5px;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+}
+body aside .level ul li:hover button {
+  background-color: #F55951;
+  transition: 700ms background-color ease-in-out;
+}
+body aside .spinach {
+  position: absolute;
+  top: 534px;
+  left: 45px;
+  width: 624px;
+  height: 289px;
+  background-color: #FFFFFF;
+}
+body aside .spinach h4 {
+  position: absolute;
+  top: 28px;
+  left: 226px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: #111127;
+}
+body aside .spinach .food-img {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+body aside .spinach .simp {
+  position: absolute;
+  display: inline-block;
+  width: 316px;
+  height: 72px;
+  top: 93px;
+  left: 226px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #111127;
+}
+body aside .spinach .heart {
+  position: absolute;
+  top: 20px;
+  left: 554px;
+  border: 1px solid #F2F2F2;
+  border-radius: 100px;
+  cursor: pointer;
+}
+body aside .spinach .heart:hover {
+  border: 1px solid #F55951;
+}
+body aside .spinach ul {
+  position: absolute;
+  width: 170px;
+  top: 180px;
+  left: 219px;
+}
+body aside .spinach ul li {
+  padding: 7px;
+  float: left;
+}
+body aside .spinach .count {
+  font-weight: 700;
+  font-size: 16px;
+  position: absolute;
+  top: 190px;
+  left: 400px;
+  line-height: 20px;
+  color: rgba(17, 17, 39, 0.5);
+}
+body aside .never {
+  position: absolute;
+  width: 344px;
+  height: 523px;
+  top: 534px;
+  left: 741px;
+  border-radius: 25px;
+  box-shadow: 0 20px 60px -45px #f55951;
+  background-color: #FFFFFF;
+}
+body aside .never .main-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+body aside .never h4 {
+  position: absolute;
+  top: 211px;
+  left: 108px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 1.1px;
+  text-align: center;
+  color: #111127;
+}
+body aside .never h3 {
+  position: absolute;
+  top: 236px;
+  left: 70px;
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  line-height: 28px;
+}
+body aside .never input {
+  width: 265px;
+  height: 60px;
+  position: absolute;
+  top: 284px;
+  left: 30px;
+  padding-left: 19px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #111127;
+}
+body aside .never button {
+  position: absolute;
+  top: 354px;
+  left: 30px;
+  width: 284px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #F55951;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+body aside .never span {
+  position: absolute;
+  width: 252px;
+  height: 40px;
+  top: 443px;
+  left: 46px;
+  font-weight: 400;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  color: #111127;
+}
+body aside .menu-bar {
+  position: absolute;
+  width: 993px;
+  height: 284px;
+  top: 143px;
+  left: 300px;
+  background-color: #FFFFFF;
+}
+body aside .menu-bar .left {
+  position: absolute;
+  background-color: #EDD2CB;
+  border: none;
+  border-radius: 100px;
+  top: 120px;
+  left: 27px;
+  cursor: pointer;
+}
+body aside .menu-bar .right {
+  position: absolute;
+  background-color: #EDD2CB;
+  border: none;
+  border-radius: 100px;
+  left: 929px;
+  top: 120px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  cursor: pointer;
+}
+body aside .menu-bar ul {
+  position: relative;
+  left: 65px;
+  top: 40px;
+}
+body aside .menu-bar ul li button {
+  float: left;
+  position: absolute;
+  width: 157px;
+  height: 204px;
+  border-radius: 10px;
+  border: none;
+  background-color: #FFFFFF;
+  margin-left: 15px;
+  cursor: pointer;
+}
+body aside .menu-bar ul li span {
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: 160px;
+  margin-left: 30px;
+  width: 137px;
+  height: 18px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+}
+body aside .menu-bar ul li:hover button {
+  border: 1px solid #D8D8D8;
+}
+
+/*# sourceMappingURL=style.css.map */

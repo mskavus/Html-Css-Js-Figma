@@ -1,0 +1,197 @@
+@font-face {
+  src: url("fonts/Mulish-VariableFont_wght.ttf");
+  font-family: Mulish, sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: Mulish, sans-serif;
+}
+
+* body {
+  font-family: Mulish, sans-serif;
+  background-color: #0F0F1B;
+  color: white;
+}
+* body h3 {
+  position: absolute;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+  left: 500px;
+  top: 15px;
+}
+* body p {
+  width: 460px;
+  height: 44px;
+  position: absolute;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  left: 450px;
+  top: 75px;
+  text-align: center;
+}
+* body ul {
+  position: absolute;
+  top: 175px;
+  left: 200px;
+}
+* body ul li {
+  cursor: pointer;
+  margin-left: 15px;
+  border-radius: 20px;
+  background-color: #171727;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  float: left;
+}
+* body ul li:first-child {
+  background-color: #242486;
+}
+* body ul li:hover {
+  background-color: #242486;
+  transform: scale(1.02);
+  transition: 400ms transform ease-in-out;
+}
+* body ul li:hover a img {
+  transition: 400ms margin-left ease-in-out;
+  margin-left: 10px;
+}
+* body ul li a {
+  color: white;
+}
+* body ul li a .span1 {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  top: 50px;
+  left: 30px;
+  width: 200px;
+}
+* body ul li a .span2 {
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+  top: 80px;
+  left: 30px;
+}
+* body ul li a .span3 {
+  font-weight: 700;
+  position: relative;
+  top: 160px;
+  right: 90px;
+}
+* body ul li a .img1 {
+  position: relative;
+  top: 160px;
+  right: 70px;
+}
+* body ul li a .img2 {
+  position: relative;
+  top: 142px;
+  left: 135px;
+}
+* body ul li a .get2 {
+  display: inline-block;
+  position: relative;
+  top: 190px;
+  width: 100px;
+  right: 120px;
+  font-weight: 700;
+}
+* body ul li a .instead2 {
+  position: relative;
+  top: 130px;
+  font-weight: 700;
+  left: 30px;
+  display: inline-block;
+}
+* body ul li a .price2 {
+  position: relative;
+  top: 120px;
+  font-size: 32px;
+  font-weight: 700;
+  right: 15px;
+}
+* body ul li a .span4 {
+  position: relative;
+  font-size: 28px;
+  font-weight: 700;
+  top: 50px;
+  left: 30px;
+}
+* body ul li a .img3 {
+  position: relative;
+  top: 190px;
+  right: 120px;
+}
+* body ul li a .get3 {
+  display: inline-block;
+  position: relative;
+  top: 190px;
+  width: 100px;
+  right: 120px;
+  font-weight: 700;
+}
+* body ul li a .instead3 {
+  position: relative;
+  top: 130px;
+  font-weight: 700;
+  left: 30px;
+  display: inline-block;
+}
+* body ul li a .price3 {
+  position: relative;
+  top: 120px;
+  font-size: 32px;
+  font-weight: 700;
+  right: 25px;
+}
+* body ul li a .span5 {
+  position: relative;
+  font-size: 28px;
+  font-weight: 700;
+  top: 50px;
+  left: 30px;
+}
+* body ul li a .the-best {
+  border-radius: 20px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+  display: block;
+  width: 120px;
+  height: 30px;
+  background-color: #A0E0B2;
+  color: #171727;
+  font-weight: 400;
+  position: relative;
+  bottom: 70px;
+  left: 90px;
+}
+* body .view-more {
+  position: relative;
+  top: 530px;
+  left: 590px;
+  width: 170px;
+  height: 58px;
+  color: #8080B9;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  background-color: #0F0F1B;
+  border: 2px solid #1f1f35;
+  cursor: pointer;
+}
+* body .view-more:hover {
+  border-color: #8080B9;
+  transition: 800ms border-color ease-in-out;
+}
+
+/*# sourceMappingURL=style.css.map */

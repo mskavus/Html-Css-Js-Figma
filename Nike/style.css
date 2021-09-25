@@ -1,0 +1,250 @@
+@font-face {
+  src: url("fonts");
+  font-family: "Montserrat", sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  height: 900px;
+  font-family: Montserrat, sans-serif;
+  background: url("images/top.png") no-repeat right top, url(images/bottom.png) bottom no-repeat;
+}
+body .header #check-btn {
+  position: relative;
+  right: 8vw;
+  top: 65px;
+  display: none;
+}
+body .header .menubar-img {
+  position: relative;
+  right: 25vw;
+  top: 65px;
+  display: none;
+  opacity: 90%;
+}
+body .header .logo {
+  position: relative;
+  top: 37px;
+  left: 5vw;
+}
+body .header button {
+  position: relative;
+  left: 95vw;
+  bottom: 40px;
+  border: none;
+  cursor: pointer;
+}
+body .header #search-btn {
+  display: none;
+}
+body .header .search-box {
+  position: absolute;
+  height: 30px;
+  top: 120px;
+  left: 73vw;
+  border-radius: 30px;
+  display: none;
+  border: none;
+  padding-left: 15px;
+  background-color: #E34313;
+  outline: none;
+}
+body .header nav ul {
+  background: rgba(250, 250, 250, 0.5);
+  backdrop-filter: blur(19.028px);
+  position: relative;
+  display: flex;
+  max-width: 895px;
+  height: 62px;
+  border-radius: 31px;
+  line-height: 62px;
+  margin-left: 17vw;
+  flex-wrap: nowrap;
+}
+body .header nav ul li {
+  list-style-type: none;
+  margin-left: 4vw;
+}
+body .header nav ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+  opacity: 80%;
+}
+body .header nav ul li a img {
+  cursor: pointer;
+}
+body .container h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 56px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 68px;
+  text-align: left;
+  height: 136px;
+  width: 400px;
+  margin-left: 12vw;
+}
+body .container .submenu {
+  margin-left: 12vw;
+}
+body .container .submenu span {
+  position: relative;
+  display: inline-block;
+  max-width: 281px;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0;
+  text-align: left;
+}
+body .container .submenu span span:nth-child(1) {
+  font-weight: 700;
+}
+body .container .submenu span:nth-child(2) {
+  font-weight: 700;
+}
+body .container .submenu span:nth-child(3) {
+  font-weight: 700;
+}
+body .container .submenu span .comfort {
+  font-weight: 700;
+}
+body .container .sub-list {
+  margin-top: 127px;
+}
+body .container .sub-list ul {
+  display: flex;
+}
+body .container .sub-list ul li {
+  margin-left: 1vw;
+  list-style-type: none;
+}
+body .container .sub-list ul li:nth-child(1) {
+  margin-left: 0;
+}
+body .container .sub-list ul li span {
+  position: relative;
+  bottom: 5px;
+}
+body .container label > select {
+  position: relative;
+  left: 40vw;
+  top: 160px;
+  width: 282px;
+  height: 38px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.7px;
+  text-align: left;
+}
+body .container .add-basket {
+  position: relative;
+  left: 19vw;
+  top: 225px;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  outline: none;
+}
+body .container .price {
+  position: relative;
+  left: 20vw;
+  top: 225px;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 1.15px;
+  text-align: left;
+}
+@media (max-width: 768px) {
+  body .header .header-nav {
+    display: none;
+  }
+  body .header .menubar-img {
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+    left: 0;
+    cursor: pointer;
+    top: 0;
+  }
+  body .header .logo {
+    display: none;
+  }
+  body .header .search-me {
+    display: none;
+  }
+  body .header .search-me .search-text {
+    display: none;
+  }
+  body .header #check-btn:checked ~ .header-nav {
+    display: flex;
+    background-image: none;
+    flex-direction: column;
+  }
+  body .header #check-btn:checked ~ .header-nav ul {
+    position: absolute;
+    flex-direction: column;
+    align-items: baseline;
+    left: -20vw;
+    top: 60px;
+    z-index: 1;
+  }
+  body .header #check-btn:checked ~ .header-nav ul li a {
+    color: black;
+    font-weight: bolder;
+    transition: 700ms all ease-in-out;
+    text-decoration: underline;
+  }
+  body .container {
+    position: absolute;
+    margin-top: 500px;
+  }
+  body .container .submenu .sub-list {
+    position: absolute;
+    top: 250px;
+  }
+  body .container .submenu .price {
+    position: absolute;
+    left: 48vw;
+    top: 425px;
+  }
+  body .container .submenu label select {
+    position: absolute;
+    top: 450px;
+    left: 1px;
+  }
+  body .container .submenu .add-basket {
+    position: absolute;
+    left: 1px;
+    top: 425px;
+  }
+}
+@media (max-width: 1000px) {
+  body .header .basket {
+    display: none;
+  }
+  body .header .search-box {
+    position: absolute;
+    top: 505px;
+    left: 8vw;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

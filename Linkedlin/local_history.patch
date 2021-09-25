@@ -1,0 +1,16 @@
+Index: style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- style.css	(date 1606869258258)
++++ style.css	(date 1606869258258)
+@@ -657,7 +657,7 @@
+     right: 10px;
+     font-family: "Roboto Light",sans-serif;
+     font-weight: bold;
+-    line-height: 30px;
++    line-height: 40px;
+     font-size: 14px;
+     color: #006699;
+     border-radius: 6px;

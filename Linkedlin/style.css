@@ -1,0 +1,917 @@
+@font-face {
+    font-family: roboto;
+    src: url("fonts/Roboto-Medium.ttf") format("woff");
+    src: url("fonts/Roboto-Regular.ttf");
+    src: url("fonts/Roboto-Thin.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #DEDEDE;
+    margin: 0;
+
+}
+.nav-bar{
+    width: 1365px;
+    height: 56px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.linkedlin-pic{
+    position: absolute;
+    top: 16px;
+    left: 150px;
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.search-them{
+    position: absolute;
+    width: 312px;
+    height: 32px;
+    left: 260px;
+    top: 12px;
+    padding-left: 30px;
+    background-color: rgba(222, 222, 222, 0.32);
+    border-radius: 4px;
+    border: none;
+    font-size: 14px;
+    line-height: 16px;
+    color: #AAAAAA;
+    font-family: "Roboto Light", sans-serif;
+    font-weight: normal;
+}
+
+.search-pic{
+    position: absolute;
+    top: 19px;
+    left: 265px;
+    cursor: pointer;
+    border: none;
+    z-index: 1;
+}
+
+span{
+    position: relative;
+    margin-right:32px ;
+    bottom: 10px;
+    left: 640px;
+}
+nav.nav-bar>span>button{
+    border: none;
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+nav.nav-bar>span>button:hover{
+
+    background-color: #4A74C2;
+
+}
+.my-profile{
+    display: inline-block;
+    width: 161px;
+    height: 26px;
+    position: relative;
+    top: 15px;
+    left: 700px;
+}
+.profil-name{
+ font-family:"Roboto Light",sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #17272F ;
+    position: relative;
+    top: 0;
+    left: 45px;
+}
+.is-active{
+    position: relative;
+    font-family:"Roboto Light",sans-serif;
+    color: #31B057;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 11px;
+    top: 0;
+    left: 80px;
+}
+.profil-pic{
+    position: relative;
+    left: 120px;
+    bottom: 25px;
+    cursor: pointer;
+}
+.my-card{
+    position: relative;
+    width: 270px;
+    height: 225px;
+    top: 70px;
+    left: 70px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+}
+.background-img{
+    width: 254px;
+    height: 43px;
+    border-radius: 4px;
+    position: relative;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    left: 7px;
+    top: 5px;
+}
+.profile-picture{
+    position: relative;
+    width: 52px;
+    height: 52px;
+    border-radius: 26px;
+    left: 100px;
+    bottom: 30px;
+}
+.my-name{
+    font-family: "Roboto Light",sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    height: 19px;
+    position: absolute;
+    width: 149px;
+    right: 40px;
+    bottom: 120px;
+    color: #17272F;
+    line-height: 19px;
+}
+.my-work{
+    font-family: "Roboto Thin",sans-serif;
+    color: #AAAAAA;
+    font-weight: 400;
+    size: 14px;
+    line-height: 16px;
+    font-style: normal;
+    position: relative;
+    top: 5px;
+    left: 50px;
+}
+.profileborder-line{
+    width: 238px;
+    height: 0;
+    border: 1px solid #EDF0F5;
+    position: relative;
+    top: 23px;
+}
+.profile-view{
+    color: #17272F;
+    position: relative;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Roboto Thin",sans-serif;
+    font-weight: 400;
+    top: 35px;
+    left: 25px;
+}
+.view-count{
+    color: #006699;
+    font-family: "Roboto Light",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    font-style: normal;
+    position: relative;
+    left: 220px;
+    top: 17px;
+}
+.post-label{
+    font-family: "Roboto Light",sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #17272F;
+    position: relative;
+    top: 35px;
+    left: 25px;
+}
+.post-count{
+    color: #006699;
+    font-family: "Roboto Thin",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    font-style: normal;
+    position: relative;
+    top: 17px;
+    left: 215px;
+}
+.tweet-area{
+    position: relative;
+    width: 540px;
+    height: 124px;
+    background-color: #FFFFFF;
+    left: 390px;
+    bottom: 150px;
+
+
+}
+.tweet-text{
+    width: 521px;
+    height: 80px;
+    padding-left: 15px;
+    border: none;
+}
+.tweetborder{
+    border: 1px solid #EDF0F5;
+    width: 508px;
+    position: relative;
+    left: 17px;
+}
+div.tweet-area>ul.my-menu>li{
+    position: relative;
+    display: block;
+    float: left;
+    padding-left:47px;
+    top: 10px;
+}
+
+div.tweet-area>ul.my-menu>li>button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.my-filter{
+    position: absolute;
+    width: 518px;
+    height: 42px;
+    background-color: rgba(170, 170, 170, 1);
+    border-radius: 4px;
+    left: 390px;
+    top: 210px;
+    padding-left: 25px;
+
+}
+.myfilter-text{
+    position: relative;
+    top: 12px;
+    font-family: "Roboto Light",sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #17272F;
+}
+.myfilter-select>select{
+    position: relative;
+    left: 350px;
+    background-color:#AAAAAA;
+    border: none;
+    top: 12px;
+    padding-left: 15px;
+    font-family: "Roboto Light",sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #17272F;
+    cursor: pointer;
+
+}
+.feeds{
+    width: 270px;
+    height: 261px;
+    border-radius: 6px;
+    background-color: rgba(255,255,255,1);
+    position: relative;
+    left: 985px;
+    bottom: 275px;
+}
+.feeds-unit{
+    font-family: "Roboto Light",sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    position: relative;
+    left: 85px;
+    top: 15px;
+}
+.feeds-border{
+    position: relative;
+    width: 238px;
+    left: 15px;
+    top: 30px;
+    color: red;
+    border: 1px solid #DEDEDE;
+}
+div.feeds>ul>li>button{
+    position: relative;
+    margin: 5px;
+    top: 50px;
+    width: 206px;
+    height: 33px;
+    left: 45px;
+    border: none;
+    background-color:#FFFFFF ;
+    cursor: pointer;
+
+}
+div.feeds>ul>li:hover>button{
+    background-color: #006699;
+
+
+}
+
+div.feeds>ul>li>button>img.add-pic1{
+    position: absolute;
+    top: 2px;
+    right: 10px;
+}
+div.feeds>ul>li>button>span.span1{
+    position: absolute;
+    left: 50px;
+    top: 0;
+    font-family: "Roboto Light",sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #17272F;
+    font-weight: bold;
+}
+div.feeds>ul>li>button>span.span2{
+    position: absolute;
+    top: 15px;
+    left: 35px;
+    font-family: "Roboto Light",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: #AAAAAA;
+}
+div.feeds>ul>li>button>img.add-pic2{
+    position: absolute;
+    top: 2px;
+    right: 10px;
+}
+div.feeds>ul>li>button>span.span3{
+    position: absolute;
+    left: 50px;
+    top: 0;
+    font-family: "Roboto Light",sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #17272F;
+    font-weight: bold;
+}
+div.feeds>ul>li>button>span.span4{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    font-family: "Roboto Light",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: #AAAAAA;
+}
+div.feeds>ul>li>button>img.add-pic3{
+    position: absolute;
+    top: 2px;
+    right: 10px;
+}
+div.feeds>ul>li>button>span.span5{
+    position: absolute;
+    left: 75px;
+    top: 0;
+    font-family: "Roboto Light",sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #17272F;
+    font-weight: bold;
+}
+div.feeds>ul>li>button>span.span6{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    font-family: "Roboto Light",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: #AAAAAA;
+}
+.see-reco{
+    color: #006699;
+    font-family: "Roboto Light",sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    position: relative;
+    top: 70px;
+    font-size: 14px;
+    display: inline-block;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    border-radius: 6px;
+    left: 10px;
+    line-height: 30px;
+}
+.see-reco:hover{
+    background-color: #006699;
+    color: white;
+}
+div.feeds>button{
+    position: relative;
+    display: block;
+    margin-top: 25px;
+    bottom: 130px;
+    left: 25px;
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+
+}
+div.feeds>button>img.sec-img{
+    position: relative;
+    left: 5px;
+}
+.timeline{
+    width: 540px;
+    height: 553px;
+    border: 1px solid rgba(237, 240, 245, 1);
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    position: absolute;
+    top: 265px;
+    left: 390px;
+}
+.newest-group{
+    width: 270px;
+    height: 301px;
+    background-color: #FFFFFF;
+    position: relative;
+    left: 70px;
+    bottom: 300px;
+    border-radius: 6px;
+}
+.add-event{
+    position: absolute;
+    width: 270px;
+    height: 51px;
+    background-color: #FFFFFF;
+    bottom: -135px;
+    left: 70px;
+    border-radius: 6px;
+}
+.find-more{
+    position: absolute;
+    width: 270px;
+    height: 56px;
+    background-color: #FFFFFF;
+    bottom: -200px;
+    left: 70px;
+    border-radius: 6px;
+    line-height: 56px;
+}
+.find-more:hover{
+    background-color: #006699;
+}
+.find-more:hover>a{
+    color: #FFFFFF;
+}
+.addvertisement{
+    position: absolute;
+    width: 270px;
+    height: 287px;
+    left: 985px;
+    bottom: -85px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+}
+.my-linkes{
+    position: absolute;
+    width: 271px;
+    height: 108px;
+    border: 1px solid #DEDEDE;
+    left: 985px;
+    bottom: -250px;
+
+}
+.messaging{
+    width: 270px;
+    height: 56px;
+    background: linear-gradient(289.57deg, #006699 20.9%, #009099 111.3%);
+    position: absolute;
+    left: 985px;
+    bottom: -400px;
+    border-radius: 6px;
+}
+div.messaging>button{
+    cursor: pointer;
+
+}
+div.messaging>button:hover{
+    border: 1px solid darkgray;
+    border-radius: 50px;
+}
+.newest-unit{
+    display: inline-block;
+    position: absolute;
+    left:15px;
+    top: 12px;
+    font-family: "Roboto Light",sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    color: rgba(23, 39, 47, 1);
+
+}
+.newest-border{
+    width: 238px;
+    border: 1px solid rgba(237, 240, 245, 1);
+    position: absolute;
+    top: 38px;
+    left: 15px;
+
+}
+div.newest-group>ul.newest-li>li{
+    position: relative;
+    text-decoration: none;
+    top: 42px;
+    padding-top: 5px;
+    left: 15px;
+}
+
+div.newest-group>ul.newest-li>li>a{
+    color: #006699;
+    font-family: "Roboto Light",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+div.newest-group>ul.newest-li>li:hover>a{
+    color: #1B1C1E;
+}
+.group-unit{
+    display: inline-block;
+    position: absolute;
+    left:15px;
+    top: 170px;
+    font-family: "Roboto Light",sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    color: rgba(23, 39, 47, 1);
+}
+div.newest-group>ul.group-li>li{
+    position: relative;
+    text-decoration: none;
+    top: 100px;
+    padding-top: 5px;
+    left: 15px;
+}
+div.newest-group>ul.group-li>li>a{
+    color: #006699;
+    font-family: "Roboto Light",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+div.newest-group>ul.group-li>li:hover>a{
+    color: #1B1C1E;
+}
+.group-border{
+    width: 238px;
+    border: 1px solid rgba(237, 240, 245, 1);
+    position: absolute;
+    top: 190px;
+    left: 15px;
+}
+div.newest-group>label>select{
+    position: absolute;
+    top: 168px;
+    left: 200px;
+    border: none;
+    color: rgba(49, 176, 87, 1);
+    font-size: 14px;
+    font-family: "Roboto Light",sans-serif;
+    cursor: pointer;
+}
+div.add-event>label{
+    font-family: "Roboto Light",sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+div.add-event>button{
+    position: absolute;
+    left: 225px;
+    top: 15px;
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+div.find-more>a{
+    color: #006699;
+    font-family: "Roboto Light",sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+.adv-subunit{
+    position: relative;
+    top: 25px;
+
+
+}
+.addvertisement-border{
+    position: absolute;
+    width: 238px;
+    border: 1px solid #DEDEDE;
+    top: 50px;
+    left: 15px;
+
+}
+div.addvertisement>img{
+    position: relative;
+    padding: 15px;
+    top: 28px;
+    left: 30px;
+
+}
+div.addvertisement>a{
+    display: inline-block;
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    font-family: "Roboto Light",sans-serif;
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 14px;
+    color: #006699;
+    border-radius: 6px;
+    text-align: center;
+}
+div.addvertisement>a:hover{
+    background-color: #006699;
+    color: #FFFFFF;
+}
+div.addvertisement>div.cameron{
+    position: absolute;
+    bottom: 65px;
+    left: 0;
+    font-family: "Roboto Light",sans-serif;
+    font-size: 14px;
+    color: #17272F;
+    line-height: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.adv-subunit{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    font-size: 12px;
+    font-family: "Roboto Light",sans-serif;
+
+}
+.test12{
+    position: relative;
+    font-size: 14px;
+    font-family: "Roboto Light",sans-serif;
+    font-weight: bold;
+    top: 10px;
+    left: 15px;
+
+}
+div.addvertisement>button{
+    border: none;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 5px;
+    cursor: pointer;
+}
+.my-linkes>ul>li{
+    display: block;
+    float: left;
+    padding: 8px;
+
+}
+.my-linkes>ul>li>a{
+    font-size: 10px;
+    color: #AAAAAA;
+    line-height: 12px;
+    font-family: "Roboto Light",sans-serif;
+}
+
+.border-linkes{
+    width: 270px;
+    border: 1px solid darkgray;
+    position: absolute;
+    top: 110px;
+}
+.copright{
+    font-size: 10px;
+    font-family: "Roboto Light",sans-serif;
+    position: absolute;
+    color: #AAAAAA;
+    line-height: 11px;
+    top: 125px;
+}
+div.my-linkes>img{
+    position: absolute;
+    top: 125px;
+    right: 0;
+}
+div.messaging>img{
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+div.messaging>div.text-it{
+    color: #FFFFFF;
+    position: absolute;
+    left: 50px;
+    top: 18px;
+
+}
+div.messaging>button{
+    position: relative;
+    left: 160px;
+    top: 10px;
+    border: none;
+    margin: 5px;
+    background: linear-gradient(289.57deg, #006699 20.9%, #009099 111.3%);
+
+}
+div.timeline>button{
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    top: 10px;
+    left: 15px;
+}
+div.timeline>div.timeline-unit{
+    display: inline-block;
+    font-family: "Roboto Light",sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+    width: 160px;
+    height: 18px;
+    position: absolute;
+    left: 65px;
+    top: 12px;
+}
+div.timeline>div.timeline-explain{
+    font-family: "Roboto Light",sans-serif;
+    font-size: 10px;
+    color: #AAAAAA;
+    position: absolute;
+    top: 29px;
+    left: 66px;
+}
+div.timeline>div.timeline-time{
+    font-family: "Roboto Light",sans-serif;
+    font-size: 10px;
+    color: #AAAAAA;
+    position: absolute;
+    left: 66px;
+    top: 40px;
+}
+div.timeline>button.more-horiz{
+    border: none;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 500px;
+}
+div.timeline>span.timeline-border{
+    border: 1px solid darkgray;
+    position: absolute;
+    width: 508px;
+    left:14px;
+    top: 70px;
+    height: 0;
+}
+div.timeline>div.timeline-quote{
+    font-family: "Roboto Light",sans-serif;
+    font-size: 14px;
+    color: #17272F;
+    position: absolute;
+    top: 100px;
+    left: 15px;
+}
+div.timeline>div.timeline-hashtag>a{
+    font-size: 14px;
+    font-family: "Roboto Light",sans-serif;
+    color: #006699;
+    position: relative;
+    top: 120px;
+    padding: 0 3px;
+    left: 10px;
+}
+div.timeline>div.timeline-hashtag>a:hover{
+    text-decoration: underline;
+}
+div.timeline>img.steve-quo{
+    position: absolute;
+    top: 150px;
+}
+div.timeline>div.tweet-retweet{
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    font-size: 10px;
+    font-family: "Roboto Light",sans-serif;
+    color: #AAAAAA;
+
+}
+div.timeline>div.tweet-retweet>label{
+    position: relative;
+    bottom: 5px;
+}
+div.timeline>div.tweet-retweet>img{
+    padding: 0 3px;
+}
+div.timeline>div>ul>li{
+    display: inline-block;
+    position: relative;
+    top: 410px;
+    padding-left:18px;
+    left: 45px;
+
+}
+div.timeline>div>ul>li>button{
+    border: none;
+    background-color: #FFFFFF;
+    padding:3px;
+    position: relative;
+    right: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Roboto Light",sans-serif;
+    color: #AAAAAA;
+}
+div.timeline>div>ul>li>button>a{
+    position: relative;
+    bottom: 3px;
+    margin-left:3px;
+}
+div.timeline>div>ul>li>button:hover >a{
+    color: #006699;
+}
+div.timeline>div.comment-class{
+    width: 503px;
+    height: 48px;
+    position: absolute;
+    border: 1px solid #EDF0F5;
+    top:480px;
+    left: 12px;
+    box-sizing: border-box;
+}
+div.timeline>div.comment-class>label>input{
+    width: 459px;
+    height:48px;
+    border-radius: 6px;
+    position: absolute;
+    padding: 0 15px;
+    font-family: "Roboto Light",sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+}
+div.timeline>div.comment-class>img.commenter-pic{
+    position: relative;
+    top: 10px;
+}
+div.timeline>div.comment-class>div.border-comment{
+    border: 1px solid #EDF0F5;
+    width: 1px;
+    height: 32px;
+    background-color: darkgray;
+    position: absolute;
+    bottom: 3px;
+    left: 480px;
+}
+div.timeline>div.comment-class>button{
+    background-color: #FFFFFF;
+    position: relative;
+    left: 455px;
+    top: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+
